@@ -81,12 +81,12 @@ public class Robot extends TimedRobot {
     WPI_TalonFX leftSlave0 = new WPI_TalonFX(1);
     //leftSlave0.setInverted(false);
     //leftSlave0.follow(leftMaster);
-    leftSlave0.setNeutralMode(NeutralMode.Brake);
+    //leftSlave0.setNeutralMode(NeutralMode.Brake);
 
     WPI_TalonFX rightSlave0 = new WPI_TalonFX(3);
     //rightSlave0.setInverted(false);
     //rightSlave0.follow(rightMaster);
-    rightSlave0.setNeutralMode(NeutralMode.Brake);
+    //rightSlave0.setNeutralMode(NeutralMode.Brake);
 
     //
     // Configure gyro
